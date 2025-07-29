@@ -40,7 +40,7 @@ Aplikasi web untuk mencatat dan mengelola progress belajar dari berbagai kursus 
 
 
 💡 Bantuan AI dalam Pengembangan
-    Dalam proses pengembangan, saya menggunakan bantuan AI (seperti ChatGPT dari OpenAI) untuk:
+    Dalam proses pengembangan, saya menggunakan bantuan AI (seperti IBM Granite) untuk:
     * Menyusun logika register/login menggunakan Firebase
     * Membuat layout antarmuka dengan Tailwind CSS
     * Memperbaiki error dan debugging
