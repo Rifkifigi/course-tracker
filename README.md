@@ -1,12 +1,54 @@
-# React + Vite
+📚 Course Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi web untuk mencatat dan mengelola progress belajar dari berbagai kursus yang diikuti. Dibuat sebagai bagian dari *Capstone Project*.
 
-Currently, two official plugins are available:
+🔧 Fitur Utama
+   
+   ✅ Registrasi & Login (Firebase Authentication)
+   
+   ✅ Menambah kursus
+  
+   ✅ Mengedit dan menghapus kursus
+   
+   ✅ Melihat daftar kursus dalam tampilan Grid/List
+   
+   ✅ Logout & Profil pengguna
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧠 Teknologi yang Digunakan
+     *React JS + Vite
+     Firebase Authentication
+     Cloud Firestore
+     Tailwind CSS*
 
-## Expanding the ESLint configuration
+🚀 Link Deployment
+   [🔗 Buka Aplikasi di Vercel]
+   
+   (https://course-tracker-zeta.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠 Cara Menjalankan Project Secara Lokal
+   1. Clone repositori ini
+      ```bash
+      git clone https://github.com/Rifkifigi/course-tracker.git
+      cd course-tracker
+      ```
+   
+   2. Install dependencies
+      ```bash
+      npm install
+      ```
+   
+   3. Jalankan project
+      ```bash
+      npm run dev
+      ```
+   > Pastikan kamu sudah menyiapkan file `firebase.js` dengan konfigurasi Firebase-mu sendiri jika ingin dijalankan lokal.
+
+
+💡 Bantuan AI dalam Pengembangan
+    Dalam proses pengembangan, saya menggunakan bantuan AI (seperti IBM Granite) untuk:
+    * Menyusun logika register/login menggunakan Firebase
+    * Membuat layout antarmuka dengan Tailwind CSS
+    * Memperbaiki error dan debugging
+    * Menyusun struktur komponen React
+
+> Catatan: AI hanya digunakan selama tahap pengembangan, bukan bagian dari produk akhir, sesuai ketentuan Capstone.
